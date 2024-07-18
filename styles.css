@@ -1,0 +1,242 @@
+
+*{
+        margin: 0;
+        padding: 0;
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    top:0px; 
+    position: fixed;
+    width: 100%;
+}
+.image{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    border-style: solid;
+}
+
+
+header nav{
+   top: 0%;
+   margin-top: 0px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    background-color:#333 ;
+    margin: 0px;
+    padding: 10px;
+    padding-bottom: 0px;  
+}
+.images{
+    margin-top:80px ;
+    border-radius: 50%;
+    border-width: 10px;
+    border-style: solid; 
+    height: 200px;   
+}
+nav ul li:hover{
+    text-decoration: underline;
+
+}
+nav ul li{
+    padding-left: 10px ;
+    padding-right: 10px;
+    
+}
+nav ul li a{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration:none ;
+    color: white;
+     
+}
+body{
+    background: url('images/restaurant.jpg') no-repeat center center/cover;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    width: 100%;    
+}
+.BG-Container{
+    text-align: center;
+    align-items: center;
+  padding: 30px 0;
+    justify-content: center;
+    background: rgba(18, 18, 18, 0.7);
+    height: 100vh;   
+}
+.Heading h1{
+    text-shadow: 0 0 5px gray,0 0 5px gray,0 0 5px gray,0 0 5px gray,0 0 5px gray,0 0 5px gray,0 0 5px gray,0 0 5px gray;
+    margin: 50px;
+    font-size: 50px;  
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in-text {
+    animation: fadeIn 3s ease-in-out; 
+
+  }
+  
+.para{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: oblique;
+    padding: 10px;
+    font-size: 20px;
+}
+.menu-top-section h1 {
+    font-family: "Caveat";
+    font-size: 50px;
+    color: black;
+    text-decoration: underline;
+    text-shadow: 0 0 5px white,0 0 5px white,0 0 5px white,0 0 5px white,0 0 5px white,0 0 5px white,0 0 5px white,0 0 5px white;
+    text-align: center;
+   
+  }
+  .logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 40px;
+    border-style: solid;
+    margin-left: 10px;
+    margin-top: 70px;
+    text-shadow: 0 0 5px gray,0 0 5px gray,0 0 5px gray,0 0 5px gray,0 0 5px gray,0 0 5px gray,0 0 5px gray,0 0 5px gray;
+  }
+ 
+ .menu-top-section{
+    background: rgba(247, 245, 245, 0.46);
+    padding-bottom: 5px;
+}
+.menu-bottom-section{
+    background: rgba(18, 18, 18, 0.6);
+   
+ }
+ .about{
+    text-align: center;
+    font-size: 20px;
+    
+  }
+  .about-heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    text-decoration: underline;
+    padding: 40px;
+    text-shadow: 0 0 5px gray,0 0 5px gray,0 0 5px gray,0 0 5px gray,0 0 5px gray,0 0 5px gray,0 0 5px gray,0 0 5px gray;
+  }
+
+.menu-image{
+    height: 160px;
+    width: 160px;
+    border-radius: 20px;
+  }
+.menu-items{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+.card-items {
+    background: rgba(247, 245, 245, 0.46);
+    padding: 20px;
+    border-style: solid;
+    text-align: center;
+    margin: 40px;
+    border-radius: 20px;
+}
+.menu-item{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    background-color: grey;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+  }
+  
+  #statusMessage {
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  .contact-heading{
+    text-shadow: 0 0 5px gray,0 0 5px gray,0 0 5px gray,0 0 5px gray,0 0 5px gray,0 0 5px gray,0 0 5px gray,0 0 5px gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:50px ;
+    padding: 20px;
+    text-decoration: underline;
+  }
+  .icons{
+    height: 30px;
+    width: 30px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 5px;
+  }
+  .join{
+    display: flex;
+    justify-content: end;
+    font-size: 30px;
+    margin: 30px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+  }
